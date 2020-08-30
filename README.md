@@ -18,7 +18,7 @@ Mozilla Firefox should be installed.
 
 You should have the network connection.
 
-In some companies, the __network/firewall__ settings may forbid downloading Python libaries via the tool "pip". If this is true, you may consult your IT administrator/specialist to download those libaries manually. 
+In some companies, the __network/firewall__ settings may forbid downloading Python libaries via the tool "pip". If this is true, please consult your IT administrator/specialist, for example, to download those libaries manually. 
 
 ### Python Libaries ###
 
@@ -27,7 +27,7 @@ In some companies, the __network/firewall__ settings may forbid downloading Pyth
 * selenium, >=3.141.0
 * requests, >=2.24.0
 
-The test library in this solution will try to insall these libaries.
+The project will try to insall these libaries automatically.
 
 ## Installation
 
@@ -35,9 +35,9 @@ The test library in this solution will try to insall these libaries.
 
 If you do not have Python, please install it.
 
-__Attention:__ When Python is installed, please note its installation directory. In this README, this installation directory will be mentioned as __<python-install-dir>__ in the following text.
+__Attention:__ When Python is installed, please note its installation directory. In this README, this installation directory will be mentioned as __`<python-install-dir>`__ in the following text.
 
-After Python is installed, please add the __absolute__ path to "<python-install-dir>\Scripts" to your environment variable "PATH".
+After Python is installed, please add the __absolute__ path to `<python-install-dir>\Scripts` to your environment variable "`PATH`".
 
 ### Install the web driver for Firefox
 
@@ -45,7 +45,7 @@ If you do not have the web driver for Firefox, please follow the following link 
 
 https://github.com/mozilla/geckodriver/releases
 
-After the installation, you need add the __absolute__ to the web driver's installation directory to your environment variable "PATH". The web driver's installation directory is the folder that contains the file "geckodriver.exe".
+After the installation, you need add the __absolute__ to the web driver's installation directory to your environment variable "`PATH`". The web driver's installation directory is the folder that contains the file "`geckodriver.exe`".
 
 ### Download/Clone this project
 
@@ -55,7 +55,7 @@ You may download the .zip file of this project, or clone it.
 
 ## Run the test
 
-After you have this project in your compter, please run the batch script "sogeti\task_impl\run_this.bat".
+After you have this project in your compter, please run the batch script "`sogeti\task_impl\run_this.bat`".
 
 The script will do the following.
 
