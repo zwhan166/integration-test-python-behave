@@ -55,9 +55,17 @@ You may download the .zip file of this project, or clone it.
 
 ## Run the test
 
-After you have this project in your compter, please run the batch script `"sogeti\task_impl\run_this.bat"`.
+You may double click the batch script `"sogeti\task_impl\run_this.bat"` to run the test.
 
-The script will do the following.
+Or, you may open one Windows console, change directory to `"sogeti\task_impl\"`, and then type `"run_this.bat"` to run it. For example, 
+
+1. Open one Windows console
+1. `cd "<cloned-dir>\sogeti\task_impl\"`
+2. type `"run_this.bat"`
+
+## What happens with the batch script
+
+The batch script will do the following.
 
 1. Create a working directory
 2. Create a Python's virtual environment
