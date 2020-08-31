@@ -76,6 +76,7 @@ The batch script will do the following.
 5. Run the Behave test.
 6. Deactivate the virtual environment
 
+![execution 01](./imgs/exec01.png)
 
 
 
