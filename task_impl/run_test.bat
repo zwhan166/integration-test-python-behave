@@ -11,6 +11,10 @@ set dst_dir=%work_dir%\work
 
 echo.
 echo [ INFO ] Create working directory...
+if exist %work_dir% (
+	del /s /f /q %work_dir%
+	rd /s /q %work_dir%
+)
 mkdir %work_dir%
 
 echo.
