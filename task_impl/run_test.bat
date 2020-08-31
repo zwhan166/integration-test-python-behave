@@ -2,12 +2,12 @@
 
 setlocal
 
-set lib_file=sogeti_test_lib-0.0.1.tar.gz
 set curr_dir=%~dp0
-set work_dir=.\sogeti_test
+set work_dir=%curr_dir%\sogeti_test
 set venv_dir=%work_dir%\venv
-set src_dir=.\test_src
+set src_dir=%curr_dir%\test_src
 set dst_dir=%work_dir%\work
+set lib_file=%curr_dir%\sogeti_test_lib-0.0.1.tar.gz
 
 echo.
 echo [ INFO ] Create working directory...
