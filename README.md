@@ -14,7 +14,9 @@ It could run in Linux, but need additional configuration and verification. The i
 
 Python should be installed. 
 
-Mozilla Firefox should be installed.
+Mozilla Firefox should be installed. 
+
+*Note: Google Chrome and Microsoft Edge haven been tried. But additional configuration and debugging are needed to finish with them.*
 
 You should have the network connection.
 
