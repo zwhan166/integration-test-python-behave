@@ -13,8 +13,10 @@ It could run in Linux, but need additional configuration and verification. The i
 ## Prerequisites ##
 
 Python should be installed. 
+![python logo](./imgs/python_logo.png)
 
 Mozilla Firefox should be installed. 
+![firefox logo](./imgs/firefox_logo.svg)
 
 *Note: Google Chrome and Microsoft Edge haven been tried. But additional configuration and debugging are needed to finish with them.*
 
@@ -41,6 +43,8 @@ __Attention:__ When Python is installed, please note its installation directory.
 
 After Python is installed, please add the __absolute__ path to __`<python-install-dir>\Scripts`__ to your environment variable `"PATH"`.
 
+![python in PATH](./imgs/python_in_path.png)
+
 ### Install the web driver for Firefox
 
 If you do not have the web driver for Firefox, please follow the following link to install it.
@@ -56,6 +60,10 @@ You may download the .zip file of this project, or clone it.
 `git clone https://github.com/zwhan166/sogeti.git`
 
 ## Run the test
+
+The batch script `"sogeti\task_impl\run_this.bat"` is the entry point.
+
+![batch script](./imgs/batch_script.png)
 
 You may double click the batch script `"sogeti\task_impl\run_this.bat"` to run the test.
 
@@ -77,6 +85,7 @@ The batch script will do the following.
 6. Deactivate the virtual environment
 
 ![execution 01](./imgs/exec01.png)
+![execution 02](./imgs/exec02.png)
 
 
 
