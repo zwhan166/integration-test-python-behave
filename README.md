@@ -13,10 +13,12 @@ It could run in Linux, but need additional configuration and verification. The i
 ## Prerequisites ##
 
 Python should be installed. 
-![python logo](./imgs/python_logo.png)
+
+![python logo](./imgs/python_logo.png | 100x100)
 
 Mozilla Firefox should be installed. 
-![firefox logo](./imgs/firefox_logo.svg)
+
+![firefox logo](./imgs/firefox_logo.svg | 100x100)
 
 *Note: Google Chrome and Microsoft Edge haven been tried. But additional configuration and debugging are needed to finish with them.*
 
