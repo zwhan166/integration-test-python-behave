@@ -53,7 +53,7 @@ If you do not have the web driver for Firefox, please follow the following link 
 
 https://github.com/mozilla/geckodriver/releases
 
-After the installation, you need add the __absolute__ to the web driver's installation directory to your environment variable `"PATH"`. The web driver's installation directory is the folder that contains the file "`geckodriver.exe`".
+After the installation, you need add the __absolute__ path to the web driver's installation directory to your environment variable `"PATH"`. The web driver's installation directory is the folder that contains the file "`geckodriver.exe`".
 
 ### Download/Clone this project
 
