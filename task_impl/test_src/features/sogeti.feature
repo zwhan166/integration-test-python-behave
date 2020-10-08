@@ -24,10 +24,10 @@ Feature: Partial test on Sogeti's website
          And we scroll down to form "Contact us:"
          And we fill the contact form's text fields as below
             | field         | text                  |
-            | First Name*   | Zhengwei              |
-            | Last Name*    | Han                   |
-            | Email*        | zw.han@hotmail.com    |
-            | Phone         | +49 (0) 162 366 1056  |
+            | First Name*   | foo              |
+            | Last Name*    | bar                   |
+            | Email*        | bar.foo@example.com    |
+            | Phone         | +49 (0) 123 456 7890  |
             | Message*      | #automatically-generated-message# Please feel free to delete this. |
          And we click the contact form's check box "I agree"
          And we click the contact form's submit button

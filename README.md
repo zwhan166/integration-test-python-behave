@@ -1,8 +1,8 @@
-# Solution to Sogeti Interview Task #
+# Integration Test via Python and Behave #
 
 ## Introduction ##
 
-This project is a solution to the interview task by Sogeti.
+This project is an example of integration test with Python and Behave.
 
 ## Environment ##
 
@@ -55,24 +55,18 @@ https://github.com/mozilla/geckodriver/releases
 
 After the installation, you need add the __absolute__ path to the web driver's installation directory to your environment variable `"PATH"`. The web driver's installation directory is the folder that contains the file "`geckodriver.exe`".
 
-### Download/Clone this project
-
-You may download the .zip file of this project, or clone it.
-
-`git clone https://github.com/zwhan166/sogeti.git`
-
 ## Run the test
 
-The batch script `"sogeti\task_impl\run_this.bat"` is the entry point.
+The batch script `"task_impl\run_this.bat"` is the entry point.
 
 ![batch script](./imgs/batch_script.png)
 
-You may double click the batch script `"sogeti\task_impl\run_this.bat"` to run the test.
+You may double click the batch script `"task_impl\run_this.bat"` to run the test.
 
-Or, you may open one Windows console, change directory to `"sogeti\task_impl\"`, and then type `"run_this.bat"` to run it. For example, 
+Or, you may open one Windows console, change directory to `"task_impl\"`, and then type `"run_this.bat"` to run it. For example, 
 
 1. Open one Windows console
-1. `cd "<cloned-dir>\sogeti\task_impl\"`
+1. `cd "<cloned-dir>\task_impl\"`
 2. type `"run_this.bat"`
 
 ## What happens with the batch script
